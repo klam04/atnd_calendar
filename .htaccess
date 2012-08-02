@@ -1,0 +1,4 @@
+php_flag magic_quotes_gpc off
+
+RewriteEngine on
+RewriteRule !\.(php|html|js|ico|gif|jpg|png|css)$ index.html
